@@ -26,7 +26,7 @@ a {
 }
 
 body {
-  background: linear-gradient(#965eee, #55005e);
+  background: linear-gradient(#55005e, #965ccc);
   color: white;
 }
 
@@ -55,7 +55,7 @@ img {
   position: absolute;
   top: 50%;
   right: -80px;
-  border: 30px solid #55005e;
+  border: 30px solid #965eee;
   border-top-color: transparent;
   border-bottom-color: transparent;
   border-right-color: transparent;
@@ -108,6 +108,7 @@ button {
   color: white;
 }
 
+/* remove the border to the click in inputs */
 textarea:focus,
 input:focus {
   box-shadow: 0 0 0 0;
