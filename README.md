@@ -9,4 +9,4 @@
 ### _Built Projects:_
 
 - **Cat Photo App:**
-  -In this course, I learned about who gives webpages their structures and the most common HTML tags.
+  - In this course, I learned about who gives webpages their structures and the most common HTML tags.

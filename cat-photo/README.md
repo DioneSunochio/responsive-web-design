@@ -2,26 +2,26 @@
 
 ## **Course Responsive Web Design (freeCodeCamp)** 🧑🏻‍🚀🚀
 
-### Through this project, I was able to learn how HTML tags give a webpages its structure.
+### I learned how HTML tags provide structure to webpages through this project.
 
 ---
 
 <br>
 
-### **I learned a little about:**
+### **I discovered a little bit about:**
 
 - Heading Hierarchy
 - SEO and accessibility
 - Nesting/Indentation
 - HTML attributes
 
-Now, I'll be thinking about every subject learned anytime I code an HTML file.
+Now, whenever I code an HTML file, I'll be thinking about everything I've learned.
 
 ---
 
 <br>
 
-### _All HTML tags learned and a brief explanation of each:_
+### _All HTML tags learned, along with a brief description of each one.:_
 
 - **\<!DOCTYPE html>**: All HTML documents must start with a \<!DOCTYPE> declaration.
 - **\<head>**: The \<head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
@@ -76,7 +76,7 @@ ref: https://www.w3schools.com/tags/
   - I custom the form.
 
 - ### _JavaScript:_
-  - I created a button with a functionality that change the image displayed next to it.
+  - I created a button with functionality that changes the image displayed next to it.
 
 ---
 
