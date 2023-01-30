@@ -72,7 +72,6 @@ ref: https://www.w3schools.com/tags/
 
   - I defined linear-gradient background.
   - I aligned the contents to the center.
-  - I used pseudo-element.
   - I custom the form.
 
 - ### _JavaScript:_

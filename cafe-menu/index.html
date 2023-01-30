@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.00" />
+    <title>Cafe Menu</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="menu">
+        <main>
+            <h1>CAMPER CAFE</h1>
+            <p class="established">Est. 2020</p>
+            <hr>
+            <section>
+                <h2>Coffee</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon" />
+                <article class="item">
+                    <p class="flavor">French Vanilla</p>
+                    <p class="price">3.00</p>
+                    <p class="value"><span class="sub">-</span><span>00</span><span class="add">+</span></p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Caramel Macchiato</p>
+                    <p class="price">3.75</p>
+                    <p class="value"><span class="sub">-</span><span>00</span><span class="add">+</span></p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Pumpkin Spice</p>
+                    <p class="price">3.50</p>
+                    <p class="value"><span class="sub">-</span><span>00</span><span class="add">+</span></p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Hazelnut</p>
+                    <p class="price">4.00</p>
+                    <p class="value"><span class="sub">-</span><span>00</span><span class="add">+</span></p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Mocha</p>
+                    <p class="price">4.50</p>
+                    <p class="value"><span class="sub">-</span><span>00</span><span class="add">+</span></p>
+                </article>
+            </section>
+            <section>
+                <h2>Desserts</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon" />
+                <article class="item">
+                    <p class="dessert">Donut</p>
+                    <p class="price">1.50</p>
+                    <p class="value"><span class="sub">-</span><span>00</span><span class="add">+</span></p>
+                </article>
+                <article class="item">
+                    <p class="dessert">Cherry Pie</p>
+                    <p class="price">2.75</p>
+                    <p class="value"><span class="sub">-</span><span>00</span><span class="add">+</span></p>
+                </article>
+                <article class="item">
+                    <p class="dessert">Cheesecake</p>
+                    <p class="price">3.00</p>
+                    <p class="value"><span class="sub">-</span><span>00</span><span class="add">+</span></p>
+                </article>
+                <article class="item">
+                    <p class="dessert">Cinnamon Roll</p>
+                    <p class="price">2.50</p>
+                    <p class="value"><span class="sub">-</span><span>00</span><span class="add">+</span></p>
+                </article>
+                <article class="item">
+                    <p id="total">Total</p>
+                    <p id="price-total">0.00</p>
+                </article>
+            </section>
+        </main>
+        <hr class="bottom-line">
+        <form id="payment-form">
+            <fieldset id="payment-methods">
+                <legend>Payment Methods</legend>
+                <label><input id='card-option' type="radio" name='payment-methods' value='card-option' checked>Credit
+                    Card</label>
+                <label><input id='paypal' type="radio" name="payment-methods" value="paypal">PayPal</label>
+            </fieldset>
+            <fieldset id="card-data">
+                <legend>Credit Card Data</legend>
+                <label for="first-name"><input type="text" id="first-name" name="first-name">First Name</label>
+                <label for="last-name"><input type="text" id="last-name" name="last-name">Last Name</label>
+                <label for="card-number"><input type="text" id="card-number" name="card-number"
+                        placeholder="9999 9999 9999 9999">Credit Card Number</label>
+                <label for="card-cvc"><input type="text" id="card-cvc" name="card-cvc" placeholder="CVC">Security
+                    Code</label>
+                <label for="card-expiration"><input type="text" id="card-expiration" name="card-expiration"
+                        placeholder="MM/YYYY">Card Expiration</label>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+        <hr>
+        <footer>
+            <p>
+                <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+            </p>
+            <p class="address">123 Free Code Camp Drive</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* MAIN SECTION */
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin: 25px 0;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+}
+
+.item p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 50%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+.value {
+  text-align: right;
+  width: 25%;
+}
+
+#total,
+#price-total {
+  margin-top: 31px;
+}
+
+#price-total {
+  padding-right: 25%;
+}
+
+.sub,
+.add {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  box-shadow: 0px 0px 2px 2px brown;
+  cursor: pointer;
+}
+
+.sub {
+  margin-right: 10px;
+}
+
+.add {
+  margin-left: 10px;
+}
+
+.sub:hover,
+.add:hover {
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 2px 2px brown, 0px 0px 1px 1px brown inset;
+}
+
+/* FORM */
+#payment-form {
+  font-size: 18px;
+}
+
+fieldset {
+  border: none;
+}
+
+#payment-methods > label > input[type="radio"] {
+  accent-color: #964b00;
+  cursor: pointer;
+}
+
+#card-data {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 230px));
+  grid-gap: 8px;
+  margin-top: 20px;
+}
+
+#card-data > label > input {
+  background-color: rgba(150, 75, 0, 0.5);
+  border: none;
+  border-bottom: 4px solid brown;
+  padding: 5px;
+  font-size: 18px;
+  color: black;
+}
+
+#card-data > label > input:focus {
+  outline: none;
+}
+
+#card-data > label > input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#payment-form > button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border: 2px solid brown;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(150, 75, 0, 0.5);
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Impact, serif;
+  cursor: pointer;
+}
+
+#payment-form > button:hover {
+  background-color: rgba(150, 75, 0, 0.8);
+}
+/* FOOTER */
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
