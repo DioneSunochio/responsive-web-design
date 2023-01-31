@@ -1,0 +1,138 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 30px auto;
+  width: 360px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input:focus {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+
+button {
+  margin: 10px 0;
+  border: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  background: linear-gradient(
+    rgba(10, 10, 10, 0.5),
+    rgba(245, 245, 245, 0.5),
+    rgba(10, 10, 10, 0.5)
+  );
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.5s;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.container > p {
+  text-aling: center;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background: linear-gradient(
+    rgba(225, 225, 225, 0.7),
+    rgba(255, 255, 255, 0.7),
+    rgba(225, 225, 225, 0.7)
+  );
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.cap,
+.sleeve,
+.tip {
+  display: inline-block;
+}
+
+.tip {
+  position: absolute;
+  top: 2.5px;
+  right: -30px;
+  width: 30px;
+  height: 20px;
+  text-align: right;
+  border-left: 1px solid black;
+  border-radius: 0 50% 50% 0;
+}
+
+.red,
+.red > .tip {
+  background: linear-gradient(
+    rgb(122, 74, 14),
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
+  );
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green,
+.green > .tip {
+  background: linear-gradient(#55680d, #71f53e, #116c31);
+  box-shadow: 0 0 20px 0 #3b7e20cc;
+}
+
+.blue,
+.blue > .tip {
+  background: linear-gradient(
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
+  box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+}
+
+.random,
+.random > .tip {
+  border: 1px solid black;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}

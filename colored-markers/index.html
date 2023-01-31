@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Markers</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/scritps.js" defer></script>
+</head>
+
+<body>
+    <h1>CSS Color Markers</h1>
+    <div class="container">
+        <div class="marker red">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+            <div class="tip"></div>
+        </div>
+        <div class="marker green">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+            <div class="tip"></div>
+        </div>
+        <div class="marker blue">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+            <div class="tip"></div>
+        </div>
+        <form>
+            <fieldset>
+                <legend>What's your favorite color?</legend>
+                <label for="random-color">Write your color
+                    below: </label>
+                <input type="text" id="random-color" name="random-color" placeholder="Ex.: Pink">
+            </fieldset>
+            <button id="btn-color" type="submit">Submit</button>
+        </form>
+        <div class="marker random" id="random-marker">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+            <div class="tip" id="random-tip"></div>
+        </div>
+    </div>
+</body>
+
+</html>
