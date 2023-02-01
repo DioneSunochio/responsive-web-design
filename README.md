@@ -12,5 +12,7 @@
   - In this course, I learned about who gives webpages their structures and the most common HTML tags.
 - **Cafe Menu App:** ☕
   - In this course, I learned how CSS tells the browser how to display my web pages and customize them.
-- **Set of Colored Markers** ✏️🌈
+- **Set of Colored Markers:** ✏️🌈
   - In this course, I learned different ways to set color values and how to pair colors with each other.
+- **Registration Form:** 🗊
+  - In this course, I learned about HTML forms. I learned how to control what types of data people can type into my form.
