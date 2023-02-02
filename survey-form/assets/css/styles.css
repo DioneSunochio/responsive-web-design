@@ -1,0 +1,174 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-self;
+}
+
+:root {
+  font-size: 62.5%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* body design */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.3),
+      rgba(136, 136, 206, 0.4)
+    ),
+    url(https://images.unsplash.com/photo-1653549893012-b8b4fbe97630?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main {
+  width: 100%;
+  max-width: 54rem;
+
+  margin: 5rem auto;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+h1,
+p {
+  margin-bottom: 1rem;
+
+  text-align: center;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+}
+
+form {
+  margin-top: 2rem;
+
+  padding: 4rem;
+
+  border-radius: 0.5rem;
+
+  background: linear-gradient(#1b1b32, #1b1b32cc);
+
+  font-size: 1.8rem;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 2.5rem;
+
+  border: none;
+}
+
+span {
+  font-size: 1.4rem;
+}
+
+label,
+legend {
+  display: inline-block;
+
+  margin-bottom: 0.8rem;
+}
+
+input,
+select,
+textarea {
+  display: block;
+
+  width: 100%;
+  height: 3.8rem;
+
+  border: none;
+  border-radius: 0.35rem;
+
+  padding: 0.6rem 1.2rem;
+
+  font-size: 1.8rem;
+}
+
+input::placeholder,
+select,
+textarea {
+  color: #495057;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.3rem rgba(0, 123, 255, 0.4);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+
+  margin-right: 0.5rem;
+
+  width: 2rem;
+  height: 2rem;
+
+  vertical-align: sub;
+
+  accent-color: #80bdff;
+
+  cursor: pointer;
+}
+
+input[type="checkbox"]:focus {
+  box-shadow: none;
+}
+
+textarea {
+  height: 12rem;
+  resize: vertical;
+}
+
+textarea::placeholder {
+  font-family: "Poppins", sans-self;
+}
+
+button {
+  display: block;
+
+  margin: 0 auto;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  padding: 1rem 0;
+
+  width: 100%;
+
+  background-color: #37af65;
+
+  font-size: 2rem;
+  text-transform: uppercase;
+
+  color: white;
+
+  cursor: pointer;
+}
