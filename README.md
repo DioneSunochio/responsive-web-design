@@ -22,3 +22,5 @@
   - In this course, I learned about Box Model.
 - **Photo Gallery:** 🖼️
   - In this course, I learned about Flexbox.
+- **Nutrition Label** 🏷️
+  - In this course, I used typography to build a nutrition label webpage.
