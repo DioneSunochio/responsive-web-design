@@ -18,5 +18,7 @@
   - In this course, I learned about HTML forms. I learned how to control what types of data people can type into my form.
 - **Survery Form:** 🗊✏️
   - This is one of the required projects to earn course certification. For this project, you will build a survey form to collect data from your users.
-- **Rothko Painting:** 🖼️
-  - In this course. I learned about Box Model.
+- **Rothko Painting:** 🎨
+  - In this course, I learned about Box Model.
+- **Photo Gallery:** 🖼️
+  - In this course, I learned about Flexbox.

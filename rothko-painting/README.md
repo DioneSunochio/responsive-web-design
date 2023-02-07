@@ -1,4 +1,4 @@
-# **Rothko Painting** 🖼️🖼️🖼️
+# **Rothko Painting** 🎨🎨🎨
 
 ## **Course Responsive Web Design (freeCodeCamp)** 🧑🏻‍🚀🚀
 
