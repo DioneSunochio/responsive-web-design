@@ -8,6 +8,14 @@
 
 <br>
 
+### **Result Overview**
+
+![Alt Text](./assets/img/photo-gallery.gif)
+
+---
+
+<br>
+
 ### **I learned about:**
 
 - Display Flexbox
