@@ -10,7 +10,7 @@
 
 ### **Result Overview**
 
-![Result Overview]
+![Result Overview](./assets/img/accessibility-quiz.gif)
 
 ---
 
