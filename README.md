@@ -24,3 +24,5 @@
   - In this course, I learned about Flexbox.
 - **Nutrition Label** 🏷️
   - In this course, I used typography to build a nutrition label webpage.
+- **Accessibility Quiz** ❓🤔
+  - In this course, I built a quiz webpage to learn about accessibility.
