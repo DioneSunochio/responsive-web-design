@@ -22,7 +22,9 @@
   - In this course, I learned about Box Model.
 - **Photo Gallery:** 🖼️
   - In this course, I learned about Flexbox.
-- **Nutrition Label** 🏷️
+- **Nutrition Label:** 🏷️
   - In this course, I used typography to build a nutrition label webpage.
-- **Accessibility Quiz** ❓🤔
+- **Accessibility Quiz:** ❓🤔
   - In this course, I built a quiz webpage to learn about accessibility.
+- **Tribute Page:** 📝
+  - This is one of the required projects to earn course certification. For this project, I will build a tribute page.

@@ -1,0 +1,191 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* RESET GLOBAL */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* GENERAL STYLES */
+body {
+  background: #0f0f0f;
+  min-height: 100vh;
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.bold {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* MAIN DESIGN */
+#main {
+  margin: 0 auto;
+
+  padding-top: 2em;
+
+  width: 100%;
+  max-width: 720px;
+}
+
+/* TITLE DESIGN */
+#title {
+  margin: 2rem auto;
+
+  font-size: 2.5rem;
+
+  text-align: center;
+
+  color: #fefefe;
+}
+
+#title > span {
+  font-weight: 400;
+
+  color: #fefefe99;
+}
+
+/* TRIBUTE-INFO DESIGN */
+#tribute-info {
+  display: flow-root;
+
+  margin: 0 auto 4em auto;
+
+  border-radius: 10px;
+
+  padding: 1.5em;
+
+  max-width: 90%;
+}
+
+/* IMAGE_DIV DESIGN */
+
+#img-div {
+  position: relative;
+
+  float: left;
+
+  margin-top: 0.2em;
+
+  padding-inline: 2rem;
+
+  min-width: 150px;
+  max-width: 50%;
+}
+
+#image {
+  margin-top: 0.4rem;
+
+  width: 100%;
+
+  box-shadow: 0 0 0.2rem 0.2rem rgba(255, 255, 255, 0.4);
+}
+
+#tribute-info:hover > #img-div > #image {
+  transition: 1s;
+
+  box-shadow: 0 0 0.4rem 0.4rem rgba(255, 255, 255, 0.4);
+}
+
+#img-caption {
+  position: absolute;
+  right: 2rem;
+  bottom: 2%;
+
+  padding: 5px 5px 0 0;
+
+  width: calc(100% - 2rem * 2);
+  height: 3.2rem;
+
+  background: linear-gradient(rgba(64, 64, 64, 0.4), rgba(0, 0, 0, 0.8));
+
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  text-align: right;
+  text-shadow: 0 0 1rem rgb(0, 0, 0);
+
+  color: rgba(255, 255, 255, 1);
+
+  opacity: 0;
+}
+
+#tribute-info:hover > #img-div > #img-caption {
+  transition: 1s;
+  opacity: 1;
+}
+
+/* TEXT-INFO DESIGN */
+.text-info {
+  font-size: 1.4rem;
+  font-weight: 400;
+
+  color: #fefefe;
+}
+
+.text-info > p > a {
+  text-decoration: none;
+}
+
+/* HISTORY SECTION DESIGN */
+.history {
+  margin: 0 auto 4em auto;
+  max-width: 90%;
+}
+
+.history h2 {
+  margin: 2rem auto;
+
+  font-size: 2rem;
+
+  text-align: center;
+
+  color: #fefefe;
+}
+
+.list {
+  margin-left: 10%;
+  margin-bottom: 2em;
+}
+
+.img-container {
+  min-width: 150px;
+}
+
+.img {
+  width: 100%;
+
+  box-shadow: 0 0 0.2rem 0.2rem rgba(255, 255, 255, 0.4);
+}
+
+.img-container > figcaption {
+  text-align: right;
+
+  color: #fefefe;
+}
+
+footer > p {
+  padding-bottom: 1em;
+
+  text-align: center;
+
+  color: #fefefe;
+}
+/* MEDIA QUERY */
+@media (max-width: 505px) {
+  #img-caption {
+    font-size: 1rem;
+  }
+}
