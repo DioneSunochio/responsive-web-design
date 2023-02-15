@@ -28,3 +28,5 @@
   - In this course, I built a quiz webpage to learn about accessibility.
 - **Tribute Page:** 📝
   - This is one of the required projects to earn course certification. For this project, I will build a tribute page.
+- **Balance Sheet:** 🧾
+  - In this course, I built a balance sheet using pseudo selectors.
