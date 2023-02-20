@@ -32,3 +32,5 @@
   - In this course, I built a balance sheet using pseudo selectors.
 - **Picasso Painting:** 🎨🖼️
   - In this course, I learned how to use some intermediate CSS techniques by coding my own Picasso painting webpage.
+- **Piano:** 🎹
+  - In this course, I used CSS and Responsive Design to code a piano.
