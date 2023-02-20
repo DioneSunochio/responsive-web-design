@@ -30,3 +30,5 @@
   - This is one of the required projects to earn course certification. For this project, I will build a tribute page.
 - **Balance Sheet:** 🧾
   - In this course, I built a balance sheet using pseudo selectors.
+- **Picasso Painting:** 🎨🖼️
+  - In this course, I learned how to use some intermediate CSS techniques by coding my own Picasso painting webpage.

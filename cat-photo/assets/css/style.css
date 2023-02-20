@@ -48,6 +48,10 @@ img {
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 5px #55005e, 0px 0px 10px 10px #965eee;
+  width: 75vmin;
+  height: 100vmin;
+  object-fit: cover;
+  object-position: center;
 }
 
 #nextImage::after {
