@@ -34,3 +34,5 @@
   - In this course, I learned how to use some intermediate CSS techniques by coding my own Picasso painting webpage.
 - **Piano:** 🎹
   - In this course, I used CSS and Responsive Design to code a piano.
+- **Technical Documentation Page:** 🗊
+  - This is one of the required projects to earn course certification.
