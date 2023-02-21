@@ -10,7 +10,7 @@
 
 ### **Result Overview**
 
-![Result Overview]()
+![Result Overview](./assets/img/city-skyline.gif)
 
 ---
 
@@ -25,6 +25,8 @@
 <br>
 
 ### _More About:_
+
+- :root selector. This is the highest level selector in CSS.
 
 ---
 
