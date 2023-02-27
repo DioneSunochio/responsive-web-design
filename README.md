@@ -85,3 +85,10 @@
 
 - **Magazine:** 📰
   - CSS Grid gives you control over the rows and columns of your webpage design.
+
+<br>
+
+- **Landing Page:** 🗏
+  - This is one of the required projects to earn course certification.
+
+<br>
