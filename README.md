@@ -80,3 +80,8 @@
 
 - **City Skyline:** 🌃
   - CSS variables help you organize your styles and reuse them.
+
+<br>
+
+- **Magazine:** 📰
+  - CSS Grid gives you control over the rows and columns of your webpage design.
