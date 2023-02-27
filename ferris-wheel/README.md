@@ -8,14 +8,6 @@
 
 <br>
 
-### **Result Overview**
-
-![Result Overview]()
-
----
-
-<br>
-
 ### **I learned about:**
 
 - CSS Animation
