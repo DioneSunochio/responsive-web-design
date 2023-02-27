@@ -1,4 +1,4 @@
-# **Tribute Page** 🗊🗊🗊
+# **Landing Page** 🗏🗏🗏
 
 ## **Course Responsive Web Design (freeCodeCamp)** 🧑🏻‍🚀🚀
 
